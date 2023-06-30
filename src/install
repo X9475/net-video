@@ -1,0 +1,14 @@
+#!/bin/bash
+
+cd 02_tracker
+make clean && make all
+cd ../03_id
+make clean && make all
+cd ../04_storage
+make clean && make all
+cd ../05_client
+make clean && make all
+cd ../06_http
+make clean && make all
+
+exit 0

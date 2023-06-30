@@ -1,0 +1,112 @@
+========
+安装测试
+========
+
+1. 建库建表
+-----------
+
+$ cd ~/projects/NetVedio/sql/
+$ mysql -uroot -p123456
+mysql> create database tnv_trackerdb;
+mysql> create database tnv_idsdb;
+mysql> create database tnv_storagedb;
+mysql> source tracker.sql
+mysql> source id.sql
+mysql> source storage.sql
+mysql> exit
+
+2. 编译安装
+-----------
+
+$ cd ~/projects/NetVedio/src/
+$ ./install
+
+3. 启动跟踪服务器
+-----------------
+
+$ cd ~/projects/NetVedio/bin/
+$ ./tracker
+
+4. 启动ID服务器
+---------------
+
+$ cd ~/projects/NetVedio/bin/
+$ ./id
+
+5. 启动存储服务器
+-----------------
+
+$ cd ~/projects/NetVedio/bin/
+$ ./storage
+
+6. 启动HTTP服务器
+-----------------
+
+$ cd ~/projects/NetVedio/bin/
+$ ./http
+通过sudo netstat -tanlp | grep 8080 解決端口占用
+
+7. 测试从跟踪服务器获取组列表
+-----------------------------
+
+$ cd ~/projects/NetVedio/bin/
+$ ./client 127.0.0.1:21000 groups
+
+         COUNT OF GROUPS: 1
+               GROUPNAME: group001
+       COUNT OF STORAGES: 1
+COUNT OF ACTIVE STORAGES: 1
+                 VERSION: 1.0
+                HOSTNAME: TNV
+                 ADDRESS: 127.0.0.1:23000
+            STARTUP TIME: Fri Jun 30 14:32:50 2023
+               JOIN TIME: Fri Jun 30 14:32:50 2023
+               BEAT TIME: Fri Jun 30 14:34:40 2023
+                  STATUS: ACTIVE
+
+8. 测试向存储服务器上传文件
+---------------------------
+
+$ cd ~/projects/NetVedio/bin/
+$ ./client 127.0.0.1:21000 upload tnvideo tnv001 ~/Videos/1.mp4
+
+Upload success: 649e782b035ee5136ad6ff2c8d2101000115
+
+9. 测试向存储服务器询问文件大小
+-------------------------------
+
+$ cd ~/projects/NetVedio/bin/
+$ ./client 127.0.0.1:21000 filesize tnvideo tnv001 649e782b035ee5136ad6ff2c8d2101000115
+
+Get filesize success: 9316101
+
+10. 测试从存储服务器下载文件
+----------------------------
+
+$ cd ~/projects/NetVedio/bin/
+$ ./client 127.0.0.1:21000 download tnvideo tnv001 649e782b035ee5136ad6ff2c8d2101000115 0 0
+
+Download success: 9316101
+
+11. 测试通过HTTP下载存储服务器上的文件
+--------------------------------------
+
+$ cd ~/projects/NetVedio/download/
+$ wget http://127.0.0.1:8080/files/649e782b035ee5136ad6ff2c8d2101000115
+$ ls -l
+
+-rw-rw-r-- 1 tarena tarena 9316101 6月  30 16:24 649e782b035ee5136ad6ff2c8d2101000115
+
+12. 测试通过HTTP播放存储服务器上的流媒体
+----------------------------------------
+
+QtPlayer
+URL: http://127.0.0.1:8080/files/649e782b035ee5136ad6ff2c8d2101000115
+
+13. 测试删除存储服务器上的文件
+------------------------------
+
+$ cd ~/projects/NetVedio/bin/
+$ ./client 127.0.0.1:21000 delete tnvideo tnv001 649e818806c75c30b2d2414c779a3d000169
+
+Delete success: 649e818806c75c30b2d2414c779a3d000169

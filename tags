@@ -1,0 +1,384 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+APPID	src/06_http/05_service.cpp	11;"	d	file:
+APPID_SIZE	src/01_common/02_proto.h	20;"	d
+AR	src/05_client/Makefile	/^AR     = ar rv$/;"	m
+BODYLEN_SIZE	src/01_common/02_proto.h	8;"	d
+CC	src/02_tracker/Makefile	/^CC     = g++$/;"	m
+CC	src/03_id/Makefile	/^CC     = g++$/;"	m
+CC	src/04_storage/Makefile	/^CC     = g++$/;"	m
+CC	src/05_client/Makefile	/^CC     = g++$/;"	m
+CC	src/06_http/Makefile	/^CC     = g++$/;"	m
+CFLAGS	src/02_tracker/Makefile	/^CFLAGS = -c -Wall \\$/;"	m
+CFLAGS	src/03_id/Makefile	/^CFLAGS = -c -Wall \\$/;"	m
+CFLAGS	src/04_storage/Makefile	/^CFLAGS = -c -Wall \\$/;"	m
+CFLAGS	src/05_client/Makefile	/^CFLAGS = -c -Wall \\$/;"	m
+CFLAGS	src/06_http/Makefile	/^CFLAGS = -c -Wall \\$/;"	m
+CMD_ID_GET	src/01_common/02_proto.h	48;"	d
+CMD_ID_REPLY	src/01_common/02_proto.h	56;"	d
+CMD_STORAGE_DELETE	src/01_common/02_proto.h	53;"	d
+CMD_STORAGE_DOWNLOAD	src/01_common/02_proto.h	52;"	d
+CMD_STORAGE_FILESIZE	src/01_common/02_proto.h	51;"	d
+CMD_STORAGE_REPLY	src/01_common/02_proto.h	57;"	d
+CMD_STORAGE_UPLOAD	src/01_common/02_proto.h	50;"	d
+CMD_TRACKER_BEAT	src/01_common/02_proto.h	44;"	d
+CMD_TRACKER_GROUPS	src/01_common/02_proto.h	46;"	d
+CMD_TRACKER_JOIN	src/01_common/02_proto.h	43;"	d
+CMD_TRACKER_REPLY	src/01_common/02_proto.h	55;"	d
+CMD_TRACKER_SADDRS	src/01_common/02_proto.h	45;"	d
+COMMAND_SIZE	src/01_common/02_proto.h	9;"	d
+ERROR	src/01_common/01_types.h	8;"	d
+ERROR_DESC_SIZE	src/01_common/02_proto.h	16;"	d
+ERROR_NUMB_SIZE	src/01_common/02_proto.h	15;"	d
+FILEID_SIZE	src/01_common/02_proto.h	22;"	d
+FILE_SLICE	src/06_http/05_service.cpp	13;"	d	file:
+HEADLEN	src/01_common/02_proto.h	11;"	d
+ID_KEY_MAX	src/01_common/01_types.h	55;"	d
+LIBS	src/02_tracker/Makefile	/^LIBS   = -pthread -lacl_all `mysql_config --libs`$/;"	m
+LIBS	src/03_id/Makefile	/^LIBS   = -pthread -lacl_all `mysql_config --libs`$/;"	m
+LIBS	src/04_storage/Makefile	/^LIBS   = -pthread -lacl_all `mysql_config --libs`$/;"	m
+LIBS	src/05_client/Makefile	/^LIBS   = -pthread -lacl_all$/;"	m
+LIBS	src/06_http/Makefile	/^LIBS   = -pthread -L..\/..\/lib -lclient -lacl_all -lz$/;"	m
+LINK	src/02_tracker/Makefile	/^LINK   = g++$/;"	m
+LINK	src/03_id/Makefile	/^LINK   = g++$/;"	m
+LINK	src/04_storage/Makefile	/^LINK   = g++$/;"	m
+LINK	src/05_client/Makefile	/^LINK   = g++$/;"	m
+LINK	src/06_http/Makefile	/^LINK   = g++$/;"	m
+LOBJ	src/05_client/Makefile	/^LOBJ   = $(filter-out %main.o, $(OBJS))$/;"	m
+LPRJ	src/05_client/Makefile	/^LPRJ   = ..\/..\/lib\/libclient.a$/;"	m
+MAX_SOCKERRS	src/05_client/08_client.cpp	12;"	d	file:
+OBJS	src/02_tracker/Makefile	/^OBJS   = $(patsubst %.cpp, %.o, $(wildcard ..\/01_common\/*.cpp *.cpp))$/;"	m
+OBJS	src/03_id/Makefile	/^OBJS   = $(patsubst %.cpp, %.o, $(wildcard ..\/01_common\/*.cpp *.cpp))$/;"	m
+OBJS	src/04_storage/Makefile	/^OBJS   = $(patsubst %.cpp, %.o, $(wildcard ..\/01_common\/*.cpp *.cpp))$/;"	m
+OBJS	src/05_client/Makefile	/^OBJS   = $(patsubst %.cpp, %.o, $(wildcard ..\/01_common\/*.cpp *.cpp))$/;"	m
+OBJS	src/06_http/Makefile	/^OBJS   = $(patsubst %.cpp, %.o, $(wildcard ..\/01_common\/*.cpp *.cpp))$/;"	m
+OK	src/01_common/01_types.h	7;"	d
+O_READ	src/04_storage/07_file.h	/^	static char const O_READ   = 'r';$/;"	m	class:file_c
+O_WRITE	src/04_storage/07_file.h	/^	static char const O_WRITE  = 'w';$/;"	m	class:file_c
+PROJ	src/02_tracker/Makefile	/^PROJ   = ..\/..\/bin\/tracker$/;"	m
+PROJ	src/03_id/Makefile	/^PROJ   = ..\/..\/bin\/id$/;"	m
+PROJ	src/04_storage/Makefile	/^PROJ   = ..\/..\/bin\/storage$/;"	m
+PROJ	src/05_client/Makefile	/^PROJ   = ..\/..\/bin\/client$/;"	m
+PROJ	src/06_http/Makefile	/^PROJ   = ..\/..\/bin\/http$/;"	m
+RM	src/02_tracker/Makefile	/^RM     = rm -rf$/;"	m
+RM	src/03_id/Makefile	/^RM     = rm -rf$/;"	m
+RM	src/04_storage/Makefile	/^RM     = rm -rf$/;"	m
+RM	src/05_client/Makefile	/^RM     = rm -rf$/;"	m
+RM	src/06_http/Makefile	/^RM     = rm -rf$/;"	m
+ROUTE_FILES	src/06_http/05_service.cpp	10;"	d	file:
+SOCKET_ERROR	src/01_common/01_types.h	9;"	d
+STATUS_BAD_REQUEST	src/06_http/01_status.h	7;"	d
+STATUS_ERROR	src/01_common/01_types.h	10;"	d
+STATUS_INTER_SERVER_ERROR	src/06_http/01_status.h	8;"	d
+STATUS_OK	src/06_http/01_status.h	6;"	d
+STATUS_SIZE	src/01_common/02_proto.h	10;"	d
+STORAGE_ADDR_MAX	src/01_common/01_types.h	28;"	d
+STORAGE_GROUPNAME_MAX	src/01_common/01_types.h	26;"	d
+STORAGE_HOSTNAME_MAX	src/01_common/01_types.h	27;"	d
+STORAGE_RCVWR_SIZE	src/01_common/01_types.h	64;"	d
+STORAGE_RDSND_SIZE	src/01_common/01_types.h	65;"	d
+STORAGE_REDIS_PREFIX	src/01_common/01_types.h	14;"	d
+STORAGE_STATUS_ACTIVE	src/01_common/01_types.h	/^	STORAGE_STATUS_ACTIVE	\/\/ 存储服务器活动$/;"	e	enum:storage_status
+STORAGE_STATUS_OFFLINE	src/01_common/01_types.h	/^	STORAGE_STATUS_OFFLINE, \/\/ 存储服务器离线$/;"	e	enum:storage_status
+STORAGE_STATUS_ONLINE	src/01_common/01_types.h	/^	STORAGE_STATUS_ONLINE,	\/\/ 存储服务器在线$/;"	e	enum:storage_status
+STORAGE_VERSION_MAX	src/01_common/01_types.h	25;"	d
+TRACKER_REDIS_PREFIX	src/01_common/01_types.h	13;"	d
+USERID	src/06_http/05_service.cpp	12;"	d	file:
+USERID_SIZE	src/01_common/02_proto.h	21;"	d
+beat	src/02_tracker/08_service.cpp	/^bool service_c::beat(acl::socket_stream* conn, long long bodylen) const {$/;"	f	class:service_c
+beat	src/02_tracker/08_service.cpp	/^int service_c::beat(char const* groupname, char const* hostname, char const* saddr) const {$/;"	f	class:service_c
+beat	src/04_storage/14_tracker.cpp	/^int tracker_c::beat(acl::socket_stream* conn) const {$/;"	f	class:tracker_c
+business	src/02_tracker/08_service.cpp	/^bool service_c::business(acl::socket_stream* conn, char const* head) const {$/;"	f	class:service_c
+business	src/03_id/06_service.cpp	/^bool service_c::business(acl::socket_stream* conn, char const* head) const {$/;"	f	class:service_c
+business	src/04_storage/12_service.cpp	/^bool service_c::business(acl::socket_stream* conn,$/;"	f	class:service_c
+cache_c	src/02_tracker/03_cache.h	/^class cache_c {$/;"	c
+cache_c	src/04_storage/03_cache.h	/^class cache_c {$/;"	c
+cfg_appids	src/02_tracker/02_globals.cpp	/^char* cfg_appids; \/\/ 应用ID表$/;"	v
+cfg_bindport	src/04_storage/02_globals.cpp	/^int cfg_bindport; \/\/ 绑定端口号$/;"	v
+cfg_bool	src/06_http/03_globals.cpp	/^acl::master_bool_tbl cfg_bool[] = { \/\/ 布尔型配置表$/;"	v
+cfg_ctimeout	src/02_tracker/02_globals.cpp	/^int cfg_ctimeout; \/\/ Redis连接超时$/;"	v
+cfg_ctimeout	src/04_storage/02_globals.cpp	/^int cfg_ctimeout; \/\/ Redis连接超时$/;"	v
+cfg_ctimeout	src/06_http/03_globals.cpp	/^int cfg_ctimeout; \/\/ Redis连接超时$/;"	v
+cfg_gpname	src/04_storage/02_globals.cpp	/^char* cfg_gpname; \/\/ 隶属组名$/;"	v
+cfg_iaddrs	src/04_storage/02_globals.cpp	/^char* cfg_iaddrs; \/\/ ID服务器地址表$/;"	v
+cfg_int	src/02_tracker/02_globals.cpp	/^acl::master_int_tbl cfg_int[] = { \/\/ 整型配置表$/;"	v
+cfg_int	src/03_id/02_globals.cpp	/^acl::master_int_tbl cfg_int[] = { 	\/\/ 整型配置表$/;"	v
+cfg_int	src/04_storage/02_globals.cpp	/^acl::master_int_tbl cfg_int[] = { \/\/ 整型配置表$/;"	v
+cfg_int	src/06_http/03_globals.cpp	/^acl::master_int_tbl cfg_int[] = { \/\/ 整型配置表$/;"	v
+cfg_interval	src/02_tracker/02_globals.cpp	/^int cfg_interval; \/\/ 存储服务器状态检测间隔秒数$/;"	v
+cfg_interval	src/04_storage/02_globals.cpp	/^int cfg_interval; \/\/ 心跳间隔秒数$/;"	v
+cfg_ktimeout	src/02_tracker/02_globals.cpp	/^int cfg_ktimeout; \/\/ Redis键超时$/;"	v
+cfg_ktimeout	src/04_storage/02_globals.cpp	/^int cfg_ktimeout; \/\/ Redis键超时$/;"	v
+cfg_maddrs	src/02_tracker/02_globals.cpp	/^char* cfg_maddrs; \/\/ MySQL地址表$/;"	v
+cfg_maddrs	src/03_id/02_globals.cpp	/^char* cfg_maddrs; 					\/\/ MySQL地址表$/;"	v
+cfg_maddrs	src/04_storage/02_globals.cpp	/^char* cfg_maddrs; \/\/ MySQL地址表$/;"	v
+cfg_maxconns	src/02_tracker/02_globals.cpp	/^int cfg_maxconns; \/\/ Redis连接池最大连接数$/;"	v
+cfg_maxconns	src/04_storage/02_globals.cpp	/^int cfg_maxconns; \/\/ Redis连接池最大连接数$/;"	v
+cfg_maxoffset	src/03_id/02_globals.cpp	/^int cfg_maxoffset; 					\/\/ 最大偏移$/;"	v
+cfg_maxthrds	src/06_http/03_globals.cpp	/^int cfg_maxthrds; \/\/ Redis最大线程$/;"	v
+cfg_mtimeout	src/02_tracker/02_globals.cpp	/^int cfg_mtimeout; \/\/ MySQL读写超时$/;"	v
+cfg_mtimeout	src/03_id/02_globals.cpp	/^int cfg_mtimeout;  					\/\/ MySQL读写超时$/;"	v
+cfg_mtimeout	src/04_storage/02_globals.cpp	/^int cfg_mtimeout; \/\/ MySQL读写超时$/;"	v
+cfg_raddrs	src/02_tracker/02_globals.cpp	/^char* cfg_raddrs; \/\/ Redis地址表$/;"	v
+cfg_raddrs	src/04_storage/02_globals.cpp	/^char* cfg_raddrs; \/\/ Redis地址表$/;"	v
+cfg_raddrs	src/06_http/03_globals.cpp	/^char* cfg_raddrs; \/\/ Redis地址表$/;"	v
+cfg_rsession	src/06_http/03_globals.cpp	/^int cfg_rsession; \/\/ 是否使用Redis会话$/;"	v
+cfg_rtimeout	src/02_tracker/02_globals.cpp	/^int cfg_rtimeout; \/\/ Redis读写超时$/;"	v
+cfg_rtimeout	src/04_storage/02_globals.cpp	/^int cfg_rtimeout; \/\/ Redis读写超时$/;"	v
+cfg_rtimeout	src/06_http/03_globals.cpp	/^int cfg_rtimeout; \/\/ Redis读写超时$/;"	v
+cfg_spaths	src/04_storage/02_globals.cpp	/^char* cfg_spaths; \/\/ 存储路径表$/;"	v
+cfg_str	src/02_tracker/02_globals.cpp	/^acl::master_str_tbl cfg_str[] = { \/\/ 字符串配置表$/;"	v
+cfg_str	src/03_id/02_globals.cpp	/^acl::master_str_tbl cfg_str[] = { 	\/\/ 字符串配置表$/;"	v
+cfg_str	src/04_storage/02_globals.cpp	/^acl::master_str_tbl cfg_str[] = { \/\/ 字符串配置表$/;"	v
+cfg_str	src/06_http/03_globals.cpp	/^acl::master_str_tbl cfg_str[] = { \/\/ 字符串配置表$/;"	v
+cfg_taddrs	src/04_storage/02_globals.cpp	/^char* cfg_taddrs; \/\/ 跟踪服务器地址表$/;"	v
+cfg_taddrs	src/06_http/03_globals.cpp	/^char* cfg_taddrs; \/\/ 跟踪服务器地址表$/;"	v
+check	src/02_tracker/10_status.cpp	/^int status_c::check(void) const {$/;"	f	class:status_c
+client	src/04_storage/10_id.cpp	/^long id_c::client(char const* requ, long long requlen) const {$/;"	f	class:id_c
+client_c	src/05_client/07_client.h	/^class client_c {$/;"	c
+close	src/04_storage/08_file.cpp	/^int file_c::close(void) {$/;"	f	class:file_c
+close	src/05_client/02_conn.cpp	/^void conn_c::close(void) {$/;"	f	class:conn_c
+conn_c	src/05_client/01_conn.h	/^class conn_c: public acl::connect_client {$/;"	c
+conn_c	src/05_client/02_conn.cpp	/^conn_c::conn_c(char const* destaddr, int ctimeout \/* = 30 *\/,$/;"	f	class:conn_c
+connect	src/02_tracker/06_db.cpp	/^int db_c::connect(void) {$/;"	f	class:db_c
+connect	src/03_id/04_db.cpp	/^int db_c::connect(void) {$/;"	f	class:db_c
+connect	src/04_storage/06_db.cpp	/^int db_c::connect(void) {$/;"	f	class:db_c
+create_connect	src/05_client/04_pool.cpp	/^acl::connect_client* pool_c::create_connect(void) {$/;"	f	class:pool_c
+create_pool	src/05_client/06_mngr.cpp	/^acl::connect_pool* mngr_c::create_pool($/;"	f	class:mngr_c
+db_c	src/02_tracker/05_db.h	/^class db_c {$/;"	c
+db_c	src/02_tracker/06_db.cpp	/^db_c::db_c(void): m_mysql(mysql_init(NULL)) { \/\/ 创建MySQL对象$/;"	f	class:db_c
+db_c	src/03_id/03_db.h	/^class db_c {$/;"	c
+db_c	src/03_id/04_db.cpp	/^db_c::db_c(void): m_mysql(mysql_init(NULL)) { \/\/ 创建MySQL对象$/;"	f	class:db_c
+db_c	src/04_storage/05_db.h	/^class db_c {$/;"	c
+db_c	src/04_storage/06_db.cpp	/^db_c::db_c(void): m_mysql(mysql_init(NULL)) { \/\/ 创建MySQL对象$/;"	f	class:db_c
+deinit	src/05_client/08_client.cpp	/^void client_c::deinit(void) {$/;"	f	class:client_c
+del	src/02_tracker/04_cache.cpp	/^int cache_c::del(char const* key) const {$/;"	f	class:cache_c
+del	src/04_storage/04_cache.cpp	/^int cache_c::del(char const* key) const {$/;"	f	class:cache_c
+del	src/04_storage/06_db.cpp	/^int db_c::del(char const* appid, char const*userid,$/;"	f	class:db_c
+del	src/04_storage/08_file.cpp	/^int file_c::del(char const* path) {$/;"	f	class:file_c
+del	src/04_storage/12_service.cpp	/^bool service_c::del(acl::socket_stream* conn, long long bodylen) const {$/;"	f	class:service_c
+del	src/05_client/02_conn.cpp	/^int conn_c::del(char const* appid, char const* userid,$/;"	f	class:conn_c
+del	src/05_client/08_client.cpp	/^int client_c::del(char const* appid, char const* userid,$/;"	f	class:client_c
+doError	src/06_http/05_service.cpp	/^bool service_c::doError(acl::HttpServletRequest& req,$/;"	f	class:service_c
+doGet	src/06_http/05_service.cpp	/^bool service_c::doGet(acl::HttpServletRequest& req,$/;"	f	class:service_c
+doOptions	src/06_http/05_service.cpp	/^bool service_c::doOptions(acl::HttpServletRequest& req,$/;"	f	class:service_c
+doOther	src/06_http/05_service.cpp	/^bool service_c::doOther(acl::HttpServletRequest& req,$/;"	f	class:service_c
+doPost	src/06_http/05_service.cpp	/^bool service_c::doPost(acl::HttpServletRequest& req,$/;"	f	class:service_c
+download	src/04_storage/12_service.cpp	/^bool service_c::download(acl::socket_stream* conn,$/;"	f	class:service_c
+download	src/05_client/02_conn.cpp	/^int conn_c::download(char const* appid, char const* userid,$/;"	f	class:conn_c
+download	src/05_client/08_client.cpp	/^int client_c::download(char const* appid, char const* userid,$/;"	f	class:client_c
+errdesc	src/05_client/02_conn.cpp	/^char const* conn_c::errdesc(void) const {$/;"	f	class:conn_c
+errnumb	src/05_client/02_conn.cpp	/^short conn_c::errnumb(void) const {$/;"	f	class:conn_c
+error	src/02_tracker/08_service.cpp	/^bool service_c::error(acl::socket_stream* conn, short errnumb, char const* format, ...) const {$/;"	f	class:service_c
+error	src/03_id/06_service.cpp	/^bool service_c::error(acl::socket_stream* conn, short errnumb, char const* format, ...) const {$/;"	f	class:service_c
+error	src/04_storage/12_service.cpp	/^bool service_c::error(acl::socket_stream* conn, short errnumb,$/;"	f	class:service_c
+file_c	src/04_storage/07_file.h	/^class file_c {$/;"	c
+file_c	src/04_storage/08_file.cpp	/^file_c::file_c(void): m_fd(-1) {$/;"	f	class:file_c
+files	src/06_http/05_service.cpp	/^bool service_c::files(acl::HttpServletRequest& req,$/;"	f	class:service_c
+filesize	src/04_storage/12_service.cpp	/^bool service_c::filesize(acl::socket_stream* conn,$/;"	f	class:service_c
+filesize	src/05_client/02_conn.cpp	/^int conn_c::filesize(char const* appid, char const* userid,$/;"	f	class:conn_c
+filesize	src/05_client/08_client.cpp	/^int client_c::filesize(char const* appid, char const* userid,$/;"	f	class:client_c
+fromdb	src/03_id/06_service.cpp	/^long service_c::fromdb(char const* key) const {$/;"	f	class:service_c
+g_appids	src/02_tracker/02_globals.cpp	/^std::vector<std::string> g_appids; \/\/ 应用ID表$/;"	v
+g_groups	src/02_tracker/02_globals.cpp	/^std::map<std::string, std::list<storage_info_t> > g_groups; \/\/ 组表$/;"	v
+g_hostname	src/02_tracker/02_globals.cpp	/^std::string g_hostname; \/\/ 主机名$/;"	v
+g_hostname	src/03_id/02_globals.cpp	/^std::string g_hostname; 			\/\/ 主机名$/;"	v
+g_hostname	src/04_storage/02_globals.cpp	/^std::string g_hostname; \/\/ 主机名$/;"	v
+g_iaddrs	src/04_storage/02_globals.cpp	/^std::vector<std::string> g_iaddrs; \/\/ ID服务器地址表$/;"	v
+g_ids	src/03_id/02_globals.cpp	/^std::vector<id_pair_t> g_ids; 		\/\/ ID表$/;"	v
+g_maddrs	src/02_tracker/02_globals.cpp	/^std::vector<std::string> g_maddrs; \/\/ MySQL地址表$/;"	v
+g_maddrs	src/03_id/02_globals.cpp	/^std::vector<std::string> g_maddrs; 	\/\/ MySQL地址表$/;"	v
+g_maddrs	src/04_storage/02_globals.cpp	/^std::vector<std::string> g_maddrs; \/\/ MySQL地址表$/;"	v
+g_mutex	src/02_tracker/02_globals.cpp	/^pthread_mutex_t g_mutex = PTHREAD_MUTEX_INITIALIZER;		\/\/ 互斥锁$/;"	v
+g_mutex	src/03_id/02_globals.cpp	/^pthread_mutex_t g_mutex = PTHREAD_MUTEX_INITIALIZER; \/\/ 互斥锁$/;"	v
+g_raddrs	src/02_tracker/02_globals.cpp	/^std::vector<std::string> g_raddrs; \/\/ Redis地址表$/;"	v
+g_raddrs	src/04_storage/02_globals.cpp	/^std::vector<std::string> g_raddrs; \/\/ Redis地址表$/;"	v
+g_rconns	src/02_tracker/02_globals.cpp	/^acl::redis_client_pool*  g_rconns; \/\/ Redis连接池$/;"	v
+g_rconns	src/04_storage/02_globals.cpp	/^acl::redis_client_pool*  g_rconns; \/\/ Redis连接池$/;"	v
+g_spaths	src/04_storage/02_globals.cpp	/^std::vector<std::string> g_spaths; \/\/ 存储路径表$/;"	v
+g_stime	src/04_storage/02_globals.cpp	/^time_t g_stime; \/\/ 启动时间$/;"	v
+g_taddrs	src/04_storage/02_globals.cpp	/^std::vector<std::string> g_taddrs; \/\/ 跟踪服务器地址表$/;"	v
+g_version	src/04_storage/02_globals.cpp	/^char const* g_version = "1.0"; \/\/ 版本$/;"	v
+genfileid	src/05_client/09_main.cpp	/^std::string genfileid(char const* userid) {$/;"	f
+genpath	src/04_storage/12_service.cpp	/^int service_c::genpath(char* filepath) const {$/;"	f	class:service_c
+get	src/02_tracker/04_cache.cpp	/^int cache_c::get(char const* key, acl::string& value) const {$/;"	f	class:cache_c
+get	src/02_tracker/06_db.cpp	/^int db_c::get(char const* userid, std::string& groupname) const {$/;"	f	class:db_c
+get	src/02_tracker/06_db.cpp	/^int db_c::get(std::vector<std::string>& groupnames) const {$/;"	f	class:db_c
+get	src/03_id/04_db.cpp	/^int db_c::get(char const* key, int inc, long* value) const {$/;"	f	class:db_c
+get	src/03_id/06_service.cpp	/^bool service_c::get(acl::socket_stream* conn, long long bodylen) const {$/;"	f	class:service_c
+get	src/03_id/06_service.cpp	/^long service_c::get(char const* key) const {$/;"	f	class:service_c
+get	src/04_storage/04_cache.cpp	/^int cache_c::get(char const* key, acl::string& value) const {$/;"	f	class:cache_c
+get	src/04_storage/06_db.cpp	/^int db_c::get(char const* appid, char const* userid, char const* fileid,$/;"	f	class:db_c
+get	src/04_storage/10_id.cpp	/^long id_c::get(char const* key) const {$/;"	f	class:id_c
+group_of_user	src/02_tracker/08_service.cpp	/^int service_c::group_of_user(char const* appid, char const* userid, std::string& groupname) const {$/;"	f	class:service_c
+groups	src/02_tracker/08_service.cpp	/^bool service_c::groups(acl::socket_stream* conn) const { \/\/ 互斥锁加锁$/;"	f	class:service_c
+groups	src/05_client/02_conn.cpp	/^int conn_c::groups(std::string& groups) {$/;"	f	class:conn_c
+groups	src/05_client/08_client.cpp	/^int client_c::groups(std::string& groups) {$/;"	f	class:client_c
+hash	src/04_storage/06_db.cpp	/^unsigned int db_c::hash(char const* buf, size_t len) const {$/;"	f	class:db_c
+id	src/03_id/06_service.cpp	/^bool service_c::id(acl::socket_stream* conn, long value) const {$/;"	f	class:service_c
+id2path	src/04_storage/12_service.cpp	/^int service_c::id2path(char const* spath, long fileid,$/;"	f	class:service_c
+id512	src/04_storage/12_service.cpp	/^long service_c::id512(long id) const {$/;"	f	class:service_c
+id_c	src/04_storage/09_id.h	/^class id_c {$/;"	c
+id_key	src/01_common/01_types.h	/^	char id_key[ID_KEY_MAX + 1]; \/\/ 键$/;"	m	struct:id_pair
+id_offset	src/01_common/01_types.h	/^	int id_offset;				 \/\/ 偏移$/;"	m	struct:id_pair
+id_pair	src/01_common/01_types.h	/^typedef struct id_pair$/;"	s
+id_pair_t	src/01_common/01_types.h	/^} id_pair_t;$/;"	t	typeref:struct:id_pair
+id_value	src/01_common/01_types.h	/^	long id_value;				 \/\/ 值$/;"	m	struct:id_pair
+init	src/05_client/08_client.cpp	/^int client_c::init(char const* taddrs,$/;"	f	class:client_c
+join	src/02_tracker/08_service.cpp	/^bool service_c::join(acl::socket_stream* conn, long long bodylen) const {$/;"	f	class:service_c
+join	src/02_tracker/08_service.cpp	/^int service_c::join(storage_join_t const* sj, char const* saddr) const {$/;"	f	class:service_c
+join	src/04_storage/14_tracker.cpp	/^int tracker_c::join(acl::socket_stream* conn) const {$/;"	f	class:tracker_c
+llton	src/01_common/04_util.cpp	/^void llton(long long ll, char* n) {$/;"	f
+lton	src/01_common/04_util.cpp	/^void lton(long l, char* n) {$/;"	f
+m_conn	src/05_client/01_conn.h	/^	acl::socket_stream* m_conn;     \/\/ 连接对象$/;"	m	class:conn_c
+m_ctimeout	src/05_client/01_conn.h	/^	int                 m_ctimeout; \/\/ 连接超时$/;"	m	class:conn_c
+m_ctimeout	src/05_client/03_pool.h	/^	int m_ctimeout; \/\/ 连接超时$/;"	m	class:pool_c
+m_destaddr	src/05_client/01_conn.h	/^	char*               m_destaddr; \/\/ 目的地址$/;"	m	class:conn_c
+m_errdesc	src/05_client/01_conn.h	/^	acl::string         m_errdesc;  \/\/ 错误描述$/;"	m	class:conn_c
+m_errnumb	src/05_client/01_conn.h	/^	short               m_errnumb;  \/\/ 错误号$/;"	m	class:conn_c
+m_fd	src/04_storage/07_file.h	/^	int m_fd; \/\/ 文件描述符$/;"	m	class:file_c
+m_itimeout	src/05_client/03_pool.h	/^	int m_itimeout; \/\/ 空闲超时$/;"	m	class:pool_c
+m_mysql	src/02_tracker/05_db.h	/^	MYSQL* m_mysql; \/\/ MySQL对象$/;"	m	class:db_c
+m_mysql	src/03_id/03_db.h	/^	MYSQL* m_mysql; \/\/ MySQL对象$/;"	m	class:db_c
+m_mysql	src/04_storage/05_db.h	/^	MYSQL* m_mysql; \/\/ MySQL对象$/;"	m	class:db_c
+m_redis	src/06_http/06_server.h	/^	acl::redis_client_cluster* m_redis; \/\/ Redis集群$/;"	m	class:server_c
+m_rtimeout	src/05_client/01_conn.h	/^	int                 m_rtimeout; \/\/ 读写超时$/;"	m	class:conn_c
+m_rtimeout	src/05_client/03_pool.h	/^	int m_rtimeout; \/\/ 读写超时$/;"	m	class:pool_c
+m_status	src/02_tracker/11_server.h	/^	status_c* m_status; \/\/ 存储服务器状态检查线程$/;"	m	class:server_c
+m_stop	src/02_tracker/09_status.h	/^	bool m_stop; \/\/ 是否终止$/;"	m	class:status_c
+m_stop	src/04_storage/13_tracker.h	/^	bool        m_stop;  \/\/ 是否终止$/;"	m	class:tracker_c
+m_taddr	src/04_storage/13_tracker.h	/^	acl::string m_taddr; \/\/ 跟踪服务器地址$/;"	m	class:tracker_c
+m_trackers	src/04_storage/15_server.h	/^	std::list<tracker_c*> m_trackers; \/\/ 跟踪客户机线程集$/;"	m	class:server_c
+main	src/02_tracker/13_main.cpp	/^int main(void) {$/;"	f
+main	src/03_id/09_main.cpp	/^int main(void) {$/;"	f
+main	src/04_storage/17_main.cpp	/^int main(void) {$/;"	f
+main	src/05_client/09_main.cpp	/^int main(int argc, char* argv[]) {$/;"	f
+main	src/06_http/08_main.cpp	/^int main(void) {$/;"	f
+makerequ	src/05_client/02_conn.cpp	/^int conn_c::makerequ(char command, char const* appid,$/;"	f	class:conn_c
+mngr_c	src/05_client/05_mngr.h	/^class mngr_c: public acl::connect_manager {$/;"	c
+ntol	src/01_common/04_util.cpp	/^long ntol(char const* n) {$/;"	f
+ntoll	src/01_common/04_util.cpp	/^long long ntoll(char const* n) {$/;"	f
+ntos	src/01_common/04_util.cpp	/^short ntos(char const* n) {$/;"	f
+ok	src/02_tracker/08_service.cpp	/^bool service_c::ok(acl::socket_stream* conn) const {$/;"	f	class:service_c
+ok	src/04_storage/12_service.cpp	/^bool service_c::ok(acl::socket_stream* conn) const {$/;"	f	class:service_c
+open	src/04_storage/08_file.cpp	/^int file_c::open(char const* path, char flag) {$/;"	f	class:file_c
+open	src/05_client/02_conn.cpp	/^bool conn_c::open(void) {$/;"	f	class:conn_c
+peek	src/05_client/04_pool.cpp	/^acl::connect_client* pool_c::peek(void) {$/;"	f	class:pool_c
+pool_c	src/05_client/03_pool.h	/^class pool_c: public acl::connect_pool {$/;"	c
+pool_c	src/05_client/04_pool.cpp	/^pool_c::pool_c(char const* destaddr, int count, size_t index \/* = 0 *\/):$/;"	f	class:pool_c
+proc_exit_timer	src/02_tracker/12_server.cpp	/^bool server_c::proc_exit_timer(size_t nclients, size_t nthreads) {$/;"	f	class:server_c
+proc_exit_timer	src/03_id/08_server.cpp	/^bool server_c::proc_exit_timer(size_t nclients, size_t nthreads) {$/;"	f	class:server_c
+proc_exit_timer	src/04_storage/16_server.cpp	/^bool server_c::proc_exit_timer(size_t nclients, size_t nthreads) {$/;"	f	class:server_c
+proc_exit_timer	src/06_http/07_server.cpp	/^bool server_c::proc_exit_timer(size_t nclients, size_t nthreads) {$/;"	f	class:server_c
+proc_on_exit	src/02_tracker/12_server.cpp	/^void server_c::proc_on_exit(void) {$/;"	f	class:server_c
+proc_on_exit	src/04_storage/16_server.cpp	/^void server_c::proc_on_exit(void) {$/;"	f	class:server_c
+proc_on_exit	src/06_http/07_server.cpp	/^void server_c::proc_on_exit(void) {$/;"	f	class:server_c
+proc_on_init	src/02_tracker/12_server.cpp	/^void server_c::proc_on_init(void) {$/;"	f	class:server_c
+proc_on_init	src/03_id/08_server.cpp	/^void server_c::proc_on_init(void) {$/;"	f	class:server_c
+proc_on_init	src/04_storage/16_server.cpp	/^void server_c::proc_on_init(void) {$/;"	f	class:server_c
+proc_on_init	src/06_http/07_server.cpp	/^void server_c::proc_on_init(void) {$/;"	f	class:server_c
+read	src/04_storage/08_file.cpp	/^int file_c::read(void* buf, size_t count) const {$/;"	f	class:file_c
+recvbody	src/05_client/02_conn.cpp	/^int conn_c::recvbody(char** body, long long* bodylen) {$/;"	f	class:conn_c
+recvhead	src/05_client/02_conn.cpp	/^int conn_c::recvhead(long long* bodylen) {$/;"	f	class:conn_c
+run	src/02_tracker/10_status.cpp	/^void* status_c::run(void) {$/;"	f	class:status_c
+run	src/04_storage/14_tracker.cpp	/^void* tracker_c::run(void) {$/;"	f	class:tracker_c
+s_mngr	src/05_client/07_client.h	/^	static acl::connect_manager* s_mngr; \/\/ 连接池管理器$/;"	m	class:client_c
+s_mngr	src/05_client/08_client.cpp	/^acl::connect_manager* client_c::s_mngr = NULL;$/;"	m	class:client_c	file:
+s_scount	src/05_client/07_client.h	/^	static int s_scount; \/\/ 存储服务器连接数上限$/;"	m	class:client_c
+s_scount	src/05_client/08_client.cpp	/^int client_c::s_scount = 8;$/;"	m	class:client_c	file:
+s_taddrs	src/05_client/07_client.h	/^	static std::vector<std::string> s_taddrs; \/\/ 跟踪服务器地址表$/;"	m	class:client_c
+s_taddrs	src/05_client/08_client.cpp	/^std::vector<std::string> client_c::s_taddrs;$/;"	m	class:client_c	file:
+saddrs	src/02_tracker/08_service.cpp	/^bool service_c::saddrs(acl::socket_stream* conn, long long bodylen) const {$/;"	f	class:service_c
+saddrs	src/02_tracker/08_service.cpp	/^int service_c::saddrs(acl::socket_stream* conn, char const* appid, char const* userid) const {$/;"	f	class:service_c
+saddrs	src/05_client/02_conn.cpp	/^int conn_c::saddrs(char const* appid, char const* userid,$/;"	f	class:conn_c
+saddrs	src/05_client/08_client.cpp	/^int client_c::saddrs(char const* appid, char const* userid,$/;"	f	class:client_c
+saddrs_of_group	src/02_tracker/08_service.cpp	/^int service_c::saddrs_of_group(char const* groupname, std::string& saddrs) const {$/;"	f	class:service_c
+save	src/04_storage/12_service.cpp	/^int service_c::save(acl::socket_stream* conn, char const* appid,$/;"	f	class:service_c
+sbb_groupname	src/01_common/02_proto.h	/^	char sbb_groupname[STORAGE_GROUPNAME_MAX + 1]; \/\/ 组名$/;"	m	struct:storage_beat_body
+sbb_hostname	src/01_common/02_proto.h	/^	char sbb_hostname[STORAGE_HOSTNAME_MAX + 1];   \/\/ 主机名$/;"	m	struct:storage_beat_body
+seek	src/04_storage/08_file.cpp	/^int file_c::seek(off_t offset) const {$/;"	f	class:file_c
+send	src/04_storage/12_service.cpp	/^int service_c::send(acl::socket_stream* conn, char const* filepath,$/;"	f	class:service_c
+server_c	src/02_tracker/11_server.h	/^class server_c: public acl::master_threads {$/;"	c
+server_c	src/03_id/07_server.h	/^class server_c: public acl::master_threads {$/;"	c
+server_c	src/04_storage/15_server.h	/^class server_c: public acl::master_threads {$/;"	c
+server_c	src/06_http/06_server.h	/^class server_c: public acl::master_threads {$/;"	c
+service_c	src/02_tracker/07_service.h	/^class service_c {$/;"	c
+service_c	src/03_id/05_service.h	/^class service_c {$/;"	c
+service_c	src/04_storage/11_service.h	/^class service_c {$/;"	c
+service_c	src/06_http/04_service.h	/^class service_c: public acl::HttpServlet {$/;"	c
+service_c	src/06_http/05_service.cpp	/^service_c::service_c(acl::socket_stream* conn, acl::session* sess):$/;"	f	class:service_c
+set	src/02_tracker/04_cache.cpp	/^int cache_c::set(char const* key, char const* value, int timeout \/* = -1 *\/) const {$/;"	f	class:cache_c
+set	src/02_tracker/06_db.cpp	/^int db_c::set(char const* appid, char const* userid, char const* groupname) const {$/;"	f	class:db_c
+set	src/04_storage/04_cache.cpp	/^int cache_c::set(char const* key, char const* value,$/;"	f	class:cache_c
+set	src/04_storage/06_db.cpp	/^int db_c::set(char const* appid, char const* userid, char const* fileid,$/;"	f	class:db_c
+si_addr	src/01_common/01_types.h	/^	char si_addr[STORAGE_ADDR_MAX + 1];			\/\/ IP地址$/;"	m	struct:storage_info
+si_btime	src/01_common/01_types.h	/^	time_t si_btime;							\/\/ 心跳时间$/;"	m	struct:storage_info
+si_hostname	src/01_common/01_types.h	/^	char si_hostname[STORAGE_HOSTNAME_MAX + 1]; \/\/ 主机名$/;"	m	struct:storage_info
+si_jtime	src/01_common/01_types.h	/^	time_t si_jtime;							\/\/ 加入时间$/;"	m	struct:storage_info
+si_port	src/01_common/01_types.h	/^	in_port_t si_port;							\/\/ 端口号$/;"	m	struct:storage_info
+si_status	src/01_common/01_types.h	/^	storage_status_t si_status;					\/\/ 状态$/;"	m	struct:storage_info
+si_stime	src/01_common/01_types.h	/^	time_t si_stime;							\/\/ 启动时间$/;"	m	struct:storage_info
+si_version	src/01_common/01_types.h	/^	char si_version[STORAGE_VERSION_MAX + 1];	\/\/ 版本$/;"	m	struct:storage_info
+sj_groupname	src/01_common/01_types.h	/^	char sj_groupname[STORAGE_GROUPNAME_MAX + 1]; \/\/ 组名$/;"	m	struct:storage_join
+sj_hostname	src/01_common/01_types.h	/^	char sj_hostname[STORAGE_HOSTNAME_MAX + 1];	  \/\/ 主机名$/;"	m	struct:storage_join
+sj_jtime	src/01_common/01_types.h	/^	time_t sj_jtime;							  \/\/ 加入时间$/;"	m	struct:storage_join
+sj_port	src/01_common/01_types.h	/^	in_port_t sj_port;							  \/\/ 端口号$/;"	m	struct:storage_join
+sj_stime	src/01_common/01_types.h	/^	time_t sj_stime;							  \/\/ 启动时间$/;"	m	struct:storage_join
+sj_version	src/01_common/01_types.h	/^	char sj_version[STORAGE_VERSION_MAX + 1];	  \/\/ 版本$/;"	m	struct:storage_join
+sjb_groupname	src/01_common/02_proto.h	/^	char sjb_groupname[STORAGE_GROUPNAME_MAX + 1]; \/\/ 组名$/;"	m	struct:storage_join_body
+sjb_hostname	src/01_common/02_proto.h	/^	char sjb_hostname[STORAGE_HOSTNAME_MAX + 1];   \/\/ 主机名$/;"	m	struct:storage_join_body
+sjb_jtime	src/01_common/02_proto.h	/^	char sjb_jtime[sizeof(time_t)];				   \/\/ 加入时间$/;"	m	struct:storage_join_body
+sjb_port	src/01_common/02_proto.h	/^	char sjb_port[sizeof(in_port_t)];			   \/\/ 端口号$/;"	m	struct:storage_join_body
+sjb_stime	src/01_common/02_proto.h	/^	char sjb_stime[sizeof(time_t)];				   \/\/ 启动时间$/;"	m	struct:storage_join_body
+sjb_version	src/01_common/02_proto.h	/^	char sjb_version[STORAGE_VERSION_MAX + 1];	   \/\/ 版本$/;"	m	struct:storage_join_body
+split	src/01_common/04_util.cpp	/^int split(char const* str, std::vector<std::string>& substrs) {$/;"	f
+status_c	src/02_tracker/09_status.h	/^class status_c: public acl::thread {$/;"	c
+status_c	src/02_tracker/10_status.cpp	/^status_c::status_c(void): m_stop(false) {$/;"	f	class:status_c
+ston	src/01_common/04_util.cpp	/^void ston(short s, char* n) {$/;"	f
+stop	src/02_tracker/10_status.cpp	/^void status_c::stop(void) {$/;"	f	class:status_c
+stop	src/04_storage/14_tracker.cpp	/^void tracker_c::stop(void) {$/;"	f	class:tracker_c
+storage_beat_body	src/01_common/02_proto.h	/^typedef struct storage_beat_body$/;"	s
+storage_beat_body_t	src/01_common/02_proto.h	/^} storage_beat_body_t;$/;"	t	typeref:struct:storage_beat_body
+storage_info	src/01_common/01_types.h	/^typedef struct storage_info$/;"	s
+storage_info_t	src/01_common/01_types.h	/^} storage_info_t;$/;"	t	typeref:struct:storage_info
+storage_join	src/01_common/01_types.h	/^typedef struct storage_join$/;"	s
+storage_join_body	src/01_common/02_proto.h	/^typedef struct storage_join_body$/;"	s
+storage_join_body_t	src/01_common/02_proto.h	/^} storage_join_body_t;$/;"	t	typeref:struct:storage_join_body
+storage_join_t	src/01_common/01_types.h	/^} storage_join_t;$/;"	t	typeref:struct:storage_join
+storage_status	src/01_common/01_types.h	/^typedef enum storage_status$/;"	g
+storage_status_t	src/01_common/01_types.h	/^} storage_status_t;			\/\/ 存储服务器状态$/;"	t	typeref:enum:storage_status
+table_of_user	src/04_storage/06_db.cpp	/^std::string db_c::table_of_user(char const* userid) const {$/;"	f	class:db_c
+thread_on_accept	src/02_tracker/12_server.cpp	/^bool server_c::thread_on_accept(acl::socket_stream* conn) {$/;"	f	class:server_c
+thread_on_accept	src/03_id/08_server.cpp	/^bool server_c::thread_on_accept(acl::socket_stream* conn) {$/;"	f	class:server_c
+thread_on_accept	src/04_storage/16_server.cpp	/^bool server_c::thread_on_accept(acl::socket_stream* conn) {$/;"	f	class:server_c
+thread_on_accept	src/06_http/07_server.cpp	/^bool server_c::thread_on_accept(acl::socket_stream* conn) {$/;"	f	class:server_c
+thread_on_close	src/02_tracker/12_server.cpp	/^void server_c::thread_on_close(acl::socket_stream* conn) {$/;"	f	class:server_c
+thread_on_close	src/03_id/08_server.cpp	/^void server_c::thread_on_close(acl::socket_stream* conn) {$/;"	f	class:server_c
+thread_on_close	src/04_storage/16_server.cpp	/^void server_c::thread_on_close(acl::socket_stream* conn) {$/;"	f	class:server_c
+thread_on_close	src/06_http/07_server.cpp	/^void server_c::thread_on_close(acl::socket_stream* conn) {$/;"	f	class:server_c
+thread_on_read	src/02_tracker/12_server.cpp	/^bool server_c::thread_on_read(acl::socket_stream* conn) {$/;"	f	class:server_c
+thread_on_read	src/03_id/08_server.cpp	/^bool server_c::thread_on_read(acl::socket_stream* conn) {$/;"	f	class:server_c
+thread_on_read	src/04_storage/16_server.cpp	/^bool server_c::thread_on_read(acl::socket_stream* conn) {$/;"	f	class:server_c
+thread_on_read	src/06_http/07_server.cpp	/^bool server_c::thread_on_read(acl::socket_stream* conn) {$/;"	f	class:server_c
+thread_on_timeout	src/02_tracker/12_server.cpp	/^bool server_c::thread_on_timeout(acl::socket_stream* conn) {$/;"	f	class:server_c
+thread_on_timeout	src/03_id/08_server.cpp	/^bool server_c::thread_on_timeout(acl::socket_stream* conn) {$/;"	f	class:server_c
+thread_on_timeout	src/04_storage/16_server.cpp	/^bool server_c::thread_on_timeout(acl::socket_stream* conn) {$/;"	f	class:server_c
+thread_on_timeout	src/06_http/07_server.cpp	/^bool server_c::thread_on_timeout(acl::socket_stream* conn) {$/;"	f	class:server_c
+timeouts	src/05_client/04_pool.cpp	/^void pool_c::timeouts(int ctimeout \/* = 30 *\/, int rtimeout \/* = 60 *\/,$/;"	f	class:pool_c
+tracker_c	src/04_storage/13_tracker.h	/^class tracker_c: public acl::thread {$/;"	c
+tracker_c	src/04_storage/14_tracker.cpp	/^tracker_c::tracker_c(char const* taddr): m_stop(false), m_taddr(taddr) {$/;"	f	class:tracker_c
+upload	src/04_storage/12_service.cpp	/^bool service_c::upload(acl::socket_stream* conn,$/;"	f	class:service_c
+upload	src/05_client/02_conn.cpp	/^int conn_c::upload(char const* appid, char const* userid,$/;"	f	class:conn_c
+upload	src/05_client/08_client.cpp	/^int client_c::upload(char const* appid, char const* userid,$/;"	f	class:client_c
+usage	src/05_client/09_main.cpp	/^void usage(char const* cmd) {$/;"	f
+valid	src/01_common/04_util.cpp	/^int valid(char const* str) {$/;"	f
+write	src/04_storage/08_file.cpp	/^int file_c::write(void const* buf, size_t count) const {$/;"	f	class:file_c
+~conn_c	src/05_client/02_conn.cpp	/^conn_c::~conn_c(void) {$/;"	f	class:conn_c
+~db_c	src/02_tracker/06_db.cpp	/^db_c::~db_c(void) {$/;"	f	class:db_c
+~db_c	src/03_id/04_db.cpp	/^db_c::~db_c(void) {$/;"	f	class:db_c
+~db_c	src/04_storage/06_db.cpp	/^db_c::~db_c(void) {$/;"	f	class:db_c
+~file_c	src/04_storage/08_file.cpp	/^file_c::~file_c(void) {$/;"	f	class:file_c

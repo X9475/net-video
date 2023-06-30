@@ -1,0 +1,83 @@
+========
+开发环境
+========
+
+1. 操作系统
+-----------
+
+$ lsb_release -a
+Ubuntu 16.04.7 LTS
+
+2. 安装Tcl
+----------
+
+$ cd ~/Projects
+$ wget http://downloads.sourceforge.net/tcl/tcl8.6.1-src.tar.gz
+$ tar xzvf tcl8.6.1-src.tar.gz
+$ cd tcl8.6.1/unix
+$ ./configure
+$ make
+$ sudo make install
+
+3. 安装Redis
+------------
+
+$ cd ~/Projects
+$ wget http://download.redis.io/redis-stable.tar.gz
+$ tar xzf redis-stable.tar.gz
+$ cd redis-stable
+$ make
+$ make test
+All tests passed without errors!
+$ sudo make install
+
+$ sudo vi /etc/sysctl.conf
+vm.overcommit_memory = 1
+net.core.somaxconn = 511
+$ sudo sysctl -p
+
+$ sudo mkdir -p /etc/redis
+$ sudo mkdir -p /var/redis/6379
+$ sudo cp redis.conf /etc/redis/6379.conf
+$ sudo vi /etc/redis/6379.conf
+daemonize yes
+dir /var/redis/6379
+$ sudo cp utils/redis_init_script /etc/init.d/redis_6379
+$ sudo vi /etc/init.d/redis_6379
+### BEGIN INIT INFO
+# Provides:          redis_6379
+# Required-Start:
+# Required-Stop:
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: Redis data structure server
+# Description:       Redis data structure server. See https://redis.io
+### END INIT INFO
+$ sudo update-rc.d redis_6379 defaults
+$ sudo /etc/init.d/redis_6379 start
+
+4. 安装ACL
+----------
+
+https://github.com/acl-dev/acl -> ~/Projects/acl-master.zip
+$ cd ~/Projects
+$ unzip acl-master.zip
+$ cd acl-master
+$ make
+$ sudo make install
+$ sudo mkdir -p /usr/include/acl-lib
+$ sudo cp -rf ./dist/include/* /usr/include/acl-lib
+$ sudo cp -rf ./dist/lib/linux64/* /usr/lib
+
+5. 安装MySQL
+------------
+
+$ sudo apt-get install mysql-server
+数据库root用户的口令：123456
+$ sudo apt-get install mysql-client
+$ sudo apt-get install libmysqlclient-dev
+
+6. 安装VLC
+----------
+
+$ sudo apt-get install vlc libvlc-dev

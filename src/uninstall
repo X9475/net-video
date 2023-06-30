@@ -1,0 +1,16 @@
+#!/bin/bash
+
+cd 02_tracker
+make clean
+cd ../03_id
+make clean
+cd ../04_storage
+make clean
+cd ../05_client
+make clean
+cd ../06_http
+make clean
+cd ../../bin
+rm -rf *
+
+exit 0
